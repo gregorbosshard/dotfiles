@@ -15,10 +15,10 @@ keymap.set("n", "<leader>sj", "<C-w>-")     -- make split window height shorter
 keymap.set("n", "<leader>sk", "<C-w>+")     -- make split windows height taller
 keymap.set("n", "<leader>sl", "<C-w>>5")    -- make split windows width bigger
 keymap.set("n", "<leader>sh", "<C-w><5")    -- make split windows width smaller
-keymap.set('n', '<leader>sph', '<C-w>h')    -- jump to left split window
-keymap.set('n', '<leader>spj', '<C-w>j')    --jump to lower split window
-keymap.set('n', '<leader>spuk', '<C-w>k')   -- jump to upper split window
-keymap.set('n', '<leader>sprl', '<C-w>l')   -- jump to right split window
+keymap.set('n', '<C-h>', '<C-w>h')    -- jump to left split window
+keymap.set('n', '<C-j>', '<C-w>j')    --jump to lower split window
+keymap.set('n', '<C-k>', '<C-w>k')   -- jump to upper split window
+keymap.set('n', '<C-l>', '<C-w>l')   -- jump to right split window
 
 -- Tab management
 keymap.set("n", "<leader>to", ":tabnew<CR>")   -- open a new tab
