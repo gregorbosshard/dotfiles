@@ -1,19 +1,19 @@
 -- File Explorer / Tree
 return {
     -- https://github.com/nvim-tree/nvim-tree.lua
-    'nvim-tree/nvim-tree.lua',
+    "nvim-tree/nvim-tree.lua",
     lazy = false,
     dependencies = {
         -- https://github.com/nvim-tree/nvim-web-devicons
-        'nvim-tree/nvim-web-devicons', -- Fancy icon support
+        "nvim-tree/nvim-web-devicons", -- Fancy icon support
     },
     opts = {
         actions = {
             open_file = {
                 window_picker = {
-                    enable = false
+                    enable = false,
                 },
-            }
+            },
         },
     },
     config = function(_, opts)
@@ -21,6 +21,5 @@ return {
         vim.g.loaded_netrw = 1
         vim.g.loaded_netrwPlugin = 1
         require("nvim-tree").setup(opts)
-    end
+    end,
 }
-

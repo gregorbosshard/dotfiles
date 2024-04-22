@@ -23,15 +23,14 @@ opt.smartcase = true  -- case insentive unless capitals used in searcher
 
 -- Cursor Line
 opt.cursorline = true
-opt.cursorlineopt = 'screenline'
-
+opt.cursorlineopt = "screenline"
 
 -- Appearance
 opt.termguicolors = true
-vim.diagnostic.config {
+vim.diagnostic.config({
     float = { border = "rounded" }, -- add border to diagnostic popups
-    virtual_text = true
-}
+    virtual_text = true,
+})
 
 -- no backup/autosave files
 opt.swapfile = false
