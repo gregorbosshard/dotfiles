@@ -2,7 +2,7 @@
 return {
     -- https://github.com/nvim-lualine/lualine.nvim
     "nvim-lualine/lualine.nvim",
-    lazy = false,
+    event = "VeryLazy",
     dependencies = {
         -- https://github.com/nvim-tree/nvim-web-devicons
         "nvim-tree/nvim-web-devicons", -- fancy icons
