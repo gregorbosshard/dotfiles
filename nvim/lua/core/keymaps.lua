@@ -22,14 +22,14 @@ keymap.set("n", "<C-l>", "<C-w>l")          -- jump to right split window
 
 -- Tab management
 keymap.set("n", "<leader>to", ":tabnew<CR>")   -- open a new tab
-keymap.set("n", "<leader>th", ":tabclose<CR>") -- close a tab
+keymap.set("n", "<leader>tc", ":tabclose<CR>") -- close a tab
 keymap.set("n", "<leader>tl", ":tabn<CR>")     -- next tab
 keymap.set("n", "<leader>th", ":tabp<CR>")     -- previous tab
 
 -- buffers
-keymap.set("n", "<A-h>", ":bprevious<CR>")
-keymap.set("n", "<A-l>", ":bnext<CR>")
-keymap.set("n", "<A-q>", ":bd<CR>")
+keymap.set("n", "<leader>bh", ":bprevious<CR>")
+keymap.set("n", "<leader>bl", ":bnext<CR>")
+keymap.set("n", "<leader>bc", ":bd<CR>")
 
 -- Nvim-tree
 keymap.set("n", "<leader>ee", ":NvimTreeToggle<CR>")   -- toggle file explorer
