@@ -51,6 +51,14 @@ return {
           },
         })
       end,
+      -- cofigure angular server (with special settings)
+      ["angularls"] = function()
+        local lsp_util = require('lspconfig.util');
+        lspconfig["angularls"].setup({
+            capabilities = capabilities,
+            root_dir = lsp_util.root_pattern('angular.json')
+        })
+     end,
     })
   end,
 }
