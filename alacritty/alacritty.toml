@@ -1,9 +1,5 @@
 import = [
-  # uncomment the flavour you want below:
-  #"~/.config/alacritty/catppuccin-latte.toml"
-  # "~/.config/alacritty/catppuccin-frappe.toml"
    "~/.config/alacritty/catppuccin-macchiato.toml"
-  # "~/.config/alacritty/catppuccin-mocha.toml"
 ]
 
 [env]
@@ -14,8 +10,8 @@ opacity = 0.95
 dynamic_title = false
 
 [font]
-normal = { family = "MonaspiceRn Nerd Font", style = "Light" }
-bold = { family = "MonaspiceRn Nerd Font", style = "Bold" }
-italic = { family = "MonaspiceRn Nerd Font", style = "LightItalic" }
-bold_italic = { family = "MonaspiceRn Nerd Font", style = "BoldItalic" }
-size = 12
+normal = { family = "JetBrainsMono Nerd Font", style = "Light" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "LightItalic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "BoldItalic" }
+size = 18
