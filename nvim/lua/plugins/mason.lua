@@ -44,6 +44,8 @@ return {
 				"stylua",
 				"eslint_d",
 				"csharpier",
+				"isort",
+				"black",
 			},
 		})
 	end,
