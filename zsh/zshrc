@@ -12,3 +12,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Set up starship
 eval "$(starship init zsh)"
+
+# Added by Windsurf
+export PATH="/Users/gbo/.codeium/windsurf/bin:$PATH"
